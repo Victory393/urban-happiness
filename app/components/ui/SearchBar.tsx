@@ -10,6 +10,7 @@ export default function SearchBar() {
       <input 
       type="text" 
       placeholder="Start your search"
+      className='focus:outline-none'
        />
     </div>
   )
