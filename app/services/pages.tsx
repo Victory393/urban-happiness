@@ -1,9 +1,9 @@
 'use client'
 
 import React from 'react'
-import Nav from './components/Nav'
+import Nav from '@/components/Nav'
 import Link from 'next/link'
-import Cards from './components/ui/Cards'
+import Cards from '@/components/ui/Cards'
 
 const page = () => {
   return (

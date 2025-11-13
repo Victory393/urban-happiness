@@ -19,13 +19,13 @@
   
   const Cards: React.FC<CardsProps> = ({CardData  , CardImage }) => {
     return (
-    <div className="flex flex-col min-w-max h-auto rounded-lg p-4">
+    <div className="flex flex-col min-w-max h-auto rounded-2xl">
       {CardImage && 
         <Image src={CardImage.src} 
         alt={CardImage.alt || CardData?.title || "Image"} 
         width={CardImage.width} 
         height={CardImage.height} 
-        className="mt-2 rounded" 
+        className="mt-2 rounded-2xl" 
         />}
         <h3 className="font-semibold">{CardData?.title || "Default Title"}</h3>
         <p className="text-sm text-gray-600">
